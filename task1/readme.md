@@ -61,19 +61,8 @@ SELECT * FROM aids;
 - Fetches all records from the `aids` table.
 
 ---
-
-<br>
-![image](https://github.com/user-attachments/assets/51303309-19c6-41f5-a4d0-ca85e601275a)
-
-<br>
-![image](https://github.com/user-attachments/assets/b8aaf5df-0b3a-4854-be11-02ff2f2898de)
-
-<br>
-![image](https://github.com/user-attachments/assets/f897abaf-3ef2-499e-bcf6-bd72596f5ce2)
-
-<br>
-![image](https://github.com/user-attachments/assets/e34a90ff-fc73-4b1a-b84d-26bdc9f1e342)
-
-<br>
-![image](https://github.com/user-attachments/assets/55439f84-a2d4-4caf-acfa-32cdf69443d6)
-
+![image](https://github.com/user-attachments/assets/e63b4b9e-c643-4a1f-9d07-ba938b34a9d5)
+![image](https://github.com/user-attachments/assets/ace1d015-cd22-45d4-ad0a-a664311edbbe)
+![image](https://github.com/user-attachments/assets/8a4a7d65-f569-4d9c-8e64-32495a106e65)
+![image](https://github.com/user-attachments/assets/b7d727d5-4e4b-45a4-81de-eff9edf770b8)
+![image](https://github.com/user-attachments/assets/79b61f95-5ed5-4dc1-9096-6a0195ca4f82)
