@@ -1,0 +1,12 @@
+id,status_fly,Date_of_status
+1,active,2024-02-25
+2,sleep,2024-02-25
+3,active,2024-02-25
+2,active,2024-02-26
+1,sleep,2024-02-26
+1,active,2024-02-27
+2,sleep,2024-02-27
+1,sleep,2024-02-28
+2,active,2024-02-28
+1,active,2024-02-29
+2,sleep,2024-02-29
