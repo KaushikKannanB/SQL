@@ -1,0 +1,9 @@
+id,name,manager_id
+1,Alice,NULL
+2,Bob,1
+3,Carol,2
+4,Dave,2
+5,Eve,4
+6,Frank,NULL
+7,Grace,6
+8,Hank,7
