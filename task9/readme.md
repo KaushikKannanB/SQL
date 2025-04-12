@@ -31,29 +31,6 @@ END $$
 DELIMITER ;
 ```
 
-#### Example: Get Total Sales Between Dates
-
-```sql
-DELIMITER $$
-
-CREATE PROCEDURE GetTotalSales (
-    IN start_date DATE,
-    IN end_date DATE
-)
-BEGIN
-    SELECT SUM(total_amount) AS total_sales
-    FROM orders
-    WHERE order_date BETWEEN start_date AND end_date;
-END $$
-
-DELIMITER ;
-```
-
-#### Call It
-
-```sql
-CALL GetTotalSales('2024-01-01', '2024-03-01');
-```
 
 ---
 
@@ -75,33 +52,6 @@ END $$
 
 DELIMITER ;
 ```
-
-#### Example: Calculate Discount
-
-```sql
-DELIMITER $$
-
-CREATE FUNCTION CalculateDiscount (
-    original_price DECIMAL(10,2),
-    discount_percent DECIMAL(5,2)
-)
-RETURNS DECIMAL(10,2)
-DETERMINISTIC
-BEGIN
-    RETURN original_price - (original_price * discount_percent / 100);
-END $$
-
-DELIMITER ;
-```
-
-#### Use in Query
-
-```sql
-SELECT order_id, total_amount,
-       CalculateDiscount(total_amount, 10) AS discounted_price
-FROM orders;
-```
-
 ---
 
 ## 🔍 DETERMINISTIC vs NOT DETERMINISTIC
