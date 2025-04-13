@@ -142,4 +142,3 @@ Although **transactions** and **triggers** solve different problems, they can be
 
 ---
 
-You can copy-paste this directly into a `README.md` file and use it for reference or share it as part of your project! It covers everything you've learned, from **indexing** and **normalization** to **transactions** and **triggers**.
